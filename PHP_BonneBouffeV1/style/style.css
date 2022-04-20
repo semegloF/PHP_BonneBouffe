@@ -1,0 +1,330 @@
+body {
+height: 200px;
+  background-color: #f2eee4;
+  background-image: linear-gradient( white, #f2eee4);
+    background-repeat: repeat-x;
+}
+
+
+
+h1 {
+    font-family: 	Arial;
+    
+}
+
+#mdperror{
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+    background: #eb4d4b;
+    padding: 10px;
+    
+}
+#rempli{
+    color:black;
+}
+#reussi{
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+    background: #6ab04c;
+    padding: 10px;
+    
+}
+
+#verdana {
+   
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+#enter {
+   
+    font-family: Verdana;
+    font-size: 20px;
+    float : left;
+    margin:20px;
+}
+
+
+
+#divMembre {
+    margin-right: 60px;
+     float:right;
+    clear:right;
+}
+
+#divAdmin {
+    float:right;
+    clear:both;
+     margin-right: 60px;
+    margin-top: -1%;
+}
+
+#floatright {
+    float:right;
+    margin-right:150px;
+}
+
+#mark {
+    color: #cd6133;
+    
+}
+
+#markA {
+    color: #ff5252;
+    
+}
+
+#markB {
+    color: #78746c;
+    
+}
+
+#textdecoration {
+    text-decoration: none;
+    color: #cd6133;
+    font-family: verdana;
+    font-size: 30px;
+    
+}
+
+#lock {
+    height:50px;
+    width:50px;
+}
+
+#abs {
+    margin-bottom: 100px;
+}
+
+.right {
+    float:right;
+}
+
+#next{
+    position: fixed;
+    left:97.5%;
+    top : 92%;
+    background: #d1ccc0;
+    box-shadow: inset 0px 0px 1px 0px black;
+    font-size: 20px;
+}
+
+#back {
+     position: fixed;
+    left:95.5%;
+    top : 92%;
+    background: #d1ccc0;
+    box-shadow: inset 0px 0px 1px 0px black;
+    font-size: 20px;
+}
+
+#plus {
+    background: transparent;
+    box-shadow: inset 0px 0px 1px 0px black;
+    font-size: 20px;
+}
+
+#plus:hover {
+    background: #d1ccc0;
+   
+}
+
+#updateR{
+    background: transparent;
+    box-shadow: inset 0px 0px 1px 0px black;
+    font-size: 20px;
+}
+
+#updateR:hover {
+    background: #d1ccc0;
+   
+}
+
+#link {
+    text-decoration: none;
+    color:#cd6133;
+}
+
+textarea{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:20px;
+	padding:6px;;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#fixed {
+   position: fixed;
+    top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ul{
+list-style-type: none;
+padding:0px;
+margin:0px;
+background-color:#d1ccc0;
+overflow:hidden;
+height:60px;
+opacity:0.8;
+top:10px;
+    clear:right;
+
+}
+
+#li {
+ float:left;
+    padding-right: 0px; 
+  
+}
+
+li a{
+	text-decoration: none;
+	color: black;
+	display:block;
+	font-family:Verdana;
+	font-size:19px;
+     padding:20px;
+}
+
+li a:hover {
+  background-color: #aaa69d;
+  transition-duration: 0.5s;
+}
+#number {
+    width : 100px;
+}
+input {
+	
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:20px;
+	padding:6px;;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+#modalTable{
+    background-color:white;
+}
+
+table.greyGridTable {
+  border: 2px solid #d1ccc0;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-bottom: 100px;
+    
+}
+table.greyGridTable td, table.greyGridTable th {
+  border: 2px solid #d1ccc0;
+  padding: 10px 4px;
+    font-family: verdana;
+}
+table.greyGridTable tbody td {
+  font-size: 13px;
+    
+}
+table.greyGridTable td:nth-child(even) {
+  background: #fffcf5;
+}
+table.greyGridTable thead {
+  background: #FFFFFF;
+  border-bottom: 4px solid #333333;
+}
+table.greyGridTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  border-left: 2px solid #333333;
+}
+table.greyGridTable thead th:first-child {
+  border-left: none;
+}
+
+table.greyGridTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  border-top: 4px solid #333333;
+}
+table.greyGridTable tfoot td {
+  font-size: 14px;
+}
+
+
+
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 300px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
